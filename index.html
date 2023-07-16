@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="description" content="DevFolio Bootstrap Portfolio">
+    <meta name="keywords" content="DevFolio, Bootstrap, Portfolio ,About , Service , Blog ">
+    <meta name="author" content="Reema">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE , ICON -->
+    <title>Quotes App</title>
+    <link rel="icon" href="./images/favicon.png" type="image/icon type">
+    <!-- BOOTSTRAP-CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- BOOTSTRAP-ICONS -->
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container vh-100">
+        <div class="row">
+            <div class="quotes_section d-flex flex-column  align-items-center mt-3">
+                <div class="quotes_icon">
+                    <img src="./images/50180.png" alt="quotes icon" class="img-fluid">
+                </div>
+                <h1>Quote of the Day</h1>
+                <p>Press the button below to recieve a random quote!</p>
+                <button class="btn btn-outline-primary text-capitalize py-3 px-4 mt-3" onclick="createQuote()">new
+                    quote</button>
+            </div>
+            <div id="quotes_details" class="row d-flex flex-row  justify-content-evenly align-items-center mt-3 py-3">
+                <div class="writer_image col-2">
+                    <img id="writer_image" src="" class="img-thumbnail rounded-circle w-100" alt="">
+                </div>
+
+
+                <blockquote class="blockquote col-10">
+                    <p class="mb-4" id="quotes_sentence"></p>
+                    <footer class="blockquote-footer" id="quotes_writer"> <cite title="Source Title"></cite>
+                    </footer>
+                </blockquote>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+
+</html>

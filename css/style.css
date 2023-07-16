@@ -1,0 +1,31 @@
+.quotes_section h1 {
+    font-size: 4rem;
+    margin-block: 10px
+}
+
+.quotes_section p {
+    font-size: 2rem;
+    margin-block: 10px
+}
+
+.quotes_section .quotes_icon {
+    width: 8rem;
+    height: 8rem;
+}
+
+.quotes_icon {
+    width: 8rem;
+    height: 8rem;
+}
+
+.writer_image {
+    height : 10rem ;
+    width : 10rem
+
+  
+}
+
+
+#quotes_details {
+    border-radius: 10px;
+}
