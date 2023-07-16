@@ -70,6 +70,7 @@ function createQuote() {
 
   document.getElementById("quotes_sentence").innerHTML =
     quotes[random_num].quote;
+    document.getElementById("quotes_writer").style.display="block"
   document.getElementById("quotes_writer").innerHTML =
     quotes[random_num].writer;
   document.getElementById("writer_image").src = quotes[random_num].img;

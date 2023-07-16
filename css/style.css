@@ -21,11 +21,12 @@
 .writer_image {
     height : 10rem ;
     width : 10rem
-
-  
 }
 
 
 #quotes_details {
     border-radius: 10px;
+}
+#quotes_writer {
+ display: none;
 }
